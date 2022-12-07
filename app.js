@@ -15,7 +15,7 @@ console.log("Enviando para o GitHub")
 
         var numero = 1;
 
-        while (nuemro <= quantidade) {
+        while (numero <= quantidade) {
 
             var numeroAleatorio = sorteia();
 
@@ -74,7 +74,7 @@ console.log("Enviando para o GitHub")
 	var botao = document.querySelector("button");
 
 	botao.onclick = verifica;
-    
+
     //console.log() serve para verificar as respostas
 	//console.log(segredos);
 
