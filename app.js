@@ -58,25 +58,21 @@ console.log("Enviando para o GitHub")
 				break;
 			} 
 
-		}
-
-		if(achou == false) {
+		}if (achou == false) {
 
 			alert("Você ERROU!!!");
 		}
-		
 
 			entrada.value = "";
 			entrada.focus();
-	
 	}
 
 	var botao = document.querySelector("button");
 
 	botao.onclick = verifica;
 
-    //console.log() serve para verificar as respostas
-	//console.log(segredos);
+    console.log() /*serve para verificar as respostas*/
+	console.log(segredos);
 
     /*let segredo = 5;
     let entrada = document.querySelector("input");
