@@ -73,7 +73,7 @@ console.log("Enviando para o GitHub")
 
     console.log() /*serve para verificar as respostas*/
 	console.log(segredos);
-// teste 
+
     /*let segredo = 5;
     let entrada = document.querySelector("input");
 
